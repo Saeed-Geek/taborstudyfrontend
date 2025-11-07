@@ -1,0 +1,156 @@
+@import "tailwindcss";
+
+:root {
+  /* Text */
+  --color-Text-primary: #000000;
+  --color-Text-secondary: #33394a;
+  --color-Text-tertiary: #afb2bb;
+  --color-Text-disabled: #cacdd6;
+  --color-Text-light: #f6f7f9;
+  /* Background */
+  --color-Background-bg-primary: #f6f7f9;
+  --color-Background-bg-secondary: #ffffff;
+  --color-Background-bg-primary-hover: #f2edfd;
+  --color-Background-bg-disabled: #f1f2f4;
+  --color-Background-bg-color: #9971f0;
+  --color-Background-bg-secondary-hover: #f4f6f9;
+  --color-Background-bg-card: #ffffff;
+  --color-Background-bg-card-top: #f6f7f9;
+  /* Border */
+  --color-Border-border-primary: #dcdee4;
+  --color-Border-border-secondary: #cacdd6;
+  --color-Border-border-disabled: #dcdee4;
+  --color-Border-border-color: #9971f0;
+  --color-Border-border-focused: #d9caf9;
+  /* Button */
+  --color-Button-primary: #9971f0;
+  --color-Button-primary-hover: #b395f4;
+  --color-Button-primary-disabled: #e6dcfb;
+  --color-Button-secondary: #000000;
+  --color-Button-secondary-hover: #2c3141;
+  --color-Button-secondary-disabled: #f4f6f9;
+  --color-Button-tertiary: #f4f6f9;
+  --color-Button-tertiary-hover: #f1f2f4;
+  --color-Button-tertiary-disabled: #f6f7f9;
+  /* Icon */
+  --color-Icon-primary: #000000;
+  --color-Icon-secondary: #33394a;
+  --color-Icon-tertiary: #afb2bb;
+  --color-Icon-disabled: #cacdd6;
+  /* Badge */
+  --color-Badge-orange: #e38635;
+  --color-Badge-orange-shade: #fcf0e6;
+  --color-Badge-success: #79c9bd;
+  --color-Badge-orange-border: #f1c39a;
+  --color-Badge-success-shade: #eef8f7;
+  --color-Badge-success-border: #bce4de;
+  --color-Badge-pending: #f3ce70;
+  --color-Badge-pending-shade: #fef9ed;
+  --color-Badge-pending-border: #f9e7b7;
+  --color-Badge-verified: #7ec0f2;
+  --color-Badge-verified-shade: #eff7fd;
+  --color-Badge-verified-border: #bfdff9;
+  --color-Badge-Pink: #ff91ea;
+  --color-Badge-Pink-shade: #fff1fc;
+  --color-Badge-Pink-border: #ffc8f5;
+  --color-Badge-black: #000000;
+  --color-Badge-black-shade: #f4f6f9;
+}
+.dark {
+  /* Text */
+  --color-Text-primary: #f6f7f9;
+  --color-Text-secondary: #afb2bb;
+  --color-Text-tertiary: #cacdd6;
+  --color-Text-disabled: #2c3141;
+  --color-Text-light: #000000;
+  /* Background */
+  --color-Background-bg-primary: #000000;
+  --color-Background-bg-secondary: #211f24;
+  --color-Background-bg-primary-hover: #211f24;
+  --color-Background-bg-disabled: #0000004d;
+  --color-Background-bg-color: #9971f0;
+  --color-Background-bg-secondary-hover: #2c3141;
+  --color-Background-bg-card: #ffffff0d;
+  --color-Background-bg-card-top: #ffffff0d;
+  /* Border */
+  --color-Border-border-primary: #2c3141;
+  --color-Border-border-secondary: #33394a;
+  --color-Border-border-disabled: #ffffff0d;
+  --color-Border-border-color: #9971f0;
+  --color-Border-border-focused: #ffffff33;
+  /* Button */
+  --color-Button-primary: #9971f0;
+  --color-Button-primary-hover: #33394a;
+  --color-Button-primary-disabled: #372068;
+  --color-Button-secondary: #000000;
+  --color-Button-secondary-hover: #2c3141;
+  --color-Button-secondary-disabled: #211f24;
+  --color-Button-tertiary: #2c3141;
+  --color-Button-tertiary-hover: #2c3141;
+  --color-Button-tertiary-disabled: #000000;
+  /* Icon */
+  --color-Icon-primary: #f6f7f9;
+  --color-Icon-secondary: #afb2bb;
+  --color-Icon-tertiary: #cacdd6;
+  --color-Icon-disabled: #2c3141;
+  /* Badge */
+  --color-Badge-orange: #e38635;
+  --color-Badge-orange-shade: #582a01;
+  --color-Badge-success: #79c9bd;
+  --color-Badge-orange-border: #b05302;
+  --color-Badge-success-shade: #234b45;
+  --color-Badge-success-border: #46968a;
+  --color-Badge-pending: #f6da94;
+  --color-Badge-pending-shade: #6b5620;
+  --color-Badge-pending-border: #c49e3d;
+  --color-Badge-verified: #7ec0f2;
+  --color-Badge-verified-shade: #275374;
+  --color-Badge-verified-border: #4c91c6;
+  --color-Badge-Pink: #ff91ea;
+  --color-Badge-Pink-shade: #942f81;
+  --color-Badge-Pink-border: #db5ec4;
+  --color-Badge-black: #000000;
+  --color-Badge-black-shade: #942f81;
+}
+
+@layer components {
+
+  /* ================================
+     Typography Utilities
+  ================================== */
+
+  /* Headings */
+  .heading-h1 { @apply font-bold text-[44px] leading-[56px] }
+  .heading-h2 { @apply font-bold text-[40px] leading-[50px] }
+  .heading-h3 { @apply font-bold text-[36px] leading-[46px]  }
+  .heading-h4 { @apply font-bold text-[32px] leading-[42px]  }
+  .heading-h5 { @apply font-bold text-[24px] leading-[34px]  }
+
+  /* Large */
+  .large-regular { @apply  text-[18px] leading-[24px] font-normal; }
+  .large-medium { @apply  text-[18px] leading-[24px] font-medium; }
+  .large-semi-bold { @apply  text-[18px] leading-[24px] font-semibold; }
+  .large-bold { @apply  text-[18px] leading-[24px] font-bold; }
+
+  /* Medium */
+  .medium-regular { @apply  text-[16px] leading-[20px] font-normal; }
+  .medium-medium { @apply  text-[16px] leading-[20px] font-medium; }
+  .medium-semi-bold { @apply text-[16px] leading-[20px] font-semibold; }
+  .medium-bold { @apply  text-[16px] leading-[20px] font-bold; }
+
+  /* Small */
+  .small-regular { @apply  text-[14px] leading-[18px] font-normal; }
+  .small-medium { @apply  text-[14px] leading-[18px] font-medium; }
+  .small-semi-bold { @apply  text-[14px] leading-[18px] font-semibold; }
+  .small-bold { @apply  text-[14px] leading-[18px] font-bold; }
+
+  /* X-Small */
+  .x-small-regular { @apply  text-[12px] leading-[16px] font-normal; }
+  .x-small-medium { @apply  text-[12px] leading-[16px] font-medium; }
+  .x-small-semi-bold { @apply  text-[12px] leading-[16px] font-semibold; }
+  .x-small-bold { @apply  text-[12px] leading-[16px] font-bold; }
+
+  /* Buttons */
+  .button-button { @apply  text-[14px] leading-[20px] font-medium; }
+  .button-button-s { @apply  text-[12px] leading-[16px] font-medium; }
+}
