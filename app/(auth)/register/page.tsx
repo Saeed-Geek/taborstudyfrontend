@@ -45,7 +45,7 @@ const UIcon  = useMemo(() => <UserIcon size={16} />, []);
       setLoading(true);
 
       try {
-        const res = await fetch(`http://localhost:3000/auth/signup`, {
+        const res = await fetch(`https://taborstudybackend-production.up.railway.app/auth/signup`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ fullName, email, password }),
@@ -68,9 +68,9 @@ const UIcon  = useMemo(() => <UserIcon size={16} />, []);
     [fullName, email, password, agreeTerms, router],
   );
   return (
-    <div className="grid min-h-screen grid-cols-1 md:grid-cols-[1fr_666px] bg-white">
+    <div className="grid p-[24px] lg:p-0 min-h-screen grid-cols-1 lg:grid-cols-[1fr_666px] bg-white">
            {/* LEFT SIDE */}
-              <div className="bg-[var(--color-Background-bg-primary-hover)] flex flex-col">
+              <div className="bg-[var(--color-Background-bg-primary-hover)] flex flex-col hidden lg:flex">
                 {/* Logo */}
                 <div className="ml-[24px] mt-[24px]">
                   <Logo />

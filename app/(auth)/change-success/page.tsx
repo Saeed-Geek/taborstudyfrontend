@@ -9,9 +9,9 @@ import Line from '@/components/icons/Line'
 import {ChevronLeft, ChevronRight} from "lucide-react";
 export default function Page() {
   return (
-    <div className="min-h-screen grid grid-cols-1 md:grid-cols-[40%_1fr]">
+    <div className="p-[24px] lg:p-0 min-h-screen grid grid-cols-1 lg:grid-cols-[40%_1fr]">
       {/* Left Section */}
-      <div className="bg-[var(--color-Background-bg-primary)] relative overflow-hidden h-[1000px]">
+      <div className="bg-[var(--color-Background-bg-primary)] relative overflow-hidden h-[1000px] hidden lg:block">
                                         {/* Logo */}
       <div className="ml-[24px] mt-[24px]">
         <Logo />

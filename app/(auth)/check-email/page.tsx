@@ -11,8 +11,8 @@ import Line from '@/components/icons/Line';
 import { ChevronLeft, ChevronRight } from "lucide-react";
 export default function page(){
   return (
-    <div className=" grid grid-cols-1 lg:grid-cols-[40%_1fr]">
-        <div className="bg-[var(--color-Background-bg-primary)] relative overflow-hidden h-[1000px]">
+    <div className="p-[24px] lg:p-0 grid grid-cols-1 lg:grid-cols-[40%_1fr]">
+        <div className="bg-[var(--color-Background-bg-primary)] relative overflow-hidden h-[1000px] hidden lg:block">
                 {/* Logo */}
                    <div className="ml-[24px] mt-[24px]">
                      <Logo />

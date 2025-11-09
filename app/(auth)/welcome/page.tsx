@@ -23,7 +23,7 @@ export default function WelcomePage() {
           onClick={async () => {
             const refreshToken = localStorage.getItem("refreshToken");
                 console.log(refreshToken)
-            await fetch("http://localhost:3000/auth/logout", {
+            await fetch("https://taborstudybackend-production.up.railway.app/auth/logout", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ refreshToken }),

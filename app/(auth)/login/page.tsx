@@ -35,7 +35,7 @@ export default function Page() {
       setLoading(true);
 
       try {
-        const res = await fetch(`http://localhost:3000/auth/signin`, {
+        const res = await fetch(`https://taborstudybackend-production.up.railway.app/auth/signin`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ email, password }),
@@ -62,9 +62,9 @@ export default function Page() {
     [email, password, router]
   );
   return (
-    <div className="grid min-h-screen grid-cols-1 md:grid-cols-[1fr_666px] bg-white">
+    <div className="p-[24px] lg:p-0 grid min-h-screen grid-cols-1 lg:grid-cols-[1fr_666px] bg-white">
       {/* LEFT SIDE */}
-      <div className="bg-[var(--color-Background-bg-primary-hover)] flex flex-col h-[1000px]">
+      <div className="bg-[var(--color-Background-bg-primary-hover)] flex flex-col h-[1000px] hidden lg:flex">
         {/* Logo */}
         <div className="ml-[24px] mt-[24px]">
           <Logo />

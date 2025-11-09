@@ -24,7 +24,7 @@ export default function page(){
 
     setLoading(true);
     try {
-      const res = await fetch(`http://localhost:3000/auth/forgot-password`, {
+      const res = await fetch(`https://taborstudybackend-production.up.railway.app/auth/forgot-password`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email }),
@@ -48,10 +48,10 @@ export default function page(){
     }
   };
   return (
-    <div className="p-[24px] lg:p-0 grid grid-cols-1 lg:grid-cols-[42%_1fr]">
+    <div className="p-[24px] lg:p-0  grid grid-cols-1 lg:grid-cols-[42%_1fr]">
       
 
-       <div className="bg-[var(--color-Background-bg-primary)] relative overflow-hidden h-[1000px]">
+       <div className="bg-[var(--color-Background-bg-primary)] relative overflow-hidden h-[1000px] hidden lg:block">
          {/* Logo */}
             <div className="ml-[24px] mt-[24px]">
               <Logo />
