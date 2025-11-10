@@ -59,7 +59,7 @@ export default function page(){
             <div className="absolute top-0 right-0">
               <Big_Star />
             </div>
-            <div className="w-[499px]  relative ml-[24px] mt-[60px] z-10">
+<div className="w-[499px]  relative ml-[24px] mt-[60px] z-10">
 <div className="w-0 h-60 left-[21px] top-[41px] absolute outline outline-1 outline-offset-[-0.50px] outline-[var(--color-Border-border-primary)]"></div>
 <div className="left-0 top-0 absolute inline-flex justify-start items-start gap-2">
 <div className="w-10 h-10 px-3.5 py-3 bg-[var(--color-Background-bg-color)] rounded-3xl outline outline-1 outline-offset-[-1px] outline-[var(--color-Border-border-primary)] inline-flex flex-col justify-center items-center gap-2.5">
