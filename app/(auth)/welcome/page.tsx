@@ -7,30 +7,30 @@ export default function WelcomePage() {
   const [userName, setUserName] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    const checkAuth = async () => {
-      try {
-        const res = await fetch(
-          'https://taborstudybackend-production.up.railway.app/auth/me',
-          { credentials: 'include' } // ✅ send cookies
-        );
-          console.log(res);
-        if (!res.ok) {
-          router.push('/welcome');
-          return;
-        }
+  // useEffect(() => {
+  //   const checkAuth = async () => {
+  //     try {
+  //       const res = await fetch(
+  //         'https://taborstudybackend-production.up.railway.app/auth/me',
+  //         { credentials: 'include' } // ✅ send cookies
+  //       );
+  //         console.log(res);
+  //       if (!res.ok) {
+  //         router.push('/welcome');
+  //         return;
+  //       }
 
-        const data = await res.json();
-        setUserName(data.user.name);
-      } catch {
-        router.push('/welcome');
-      } finally {
-        setLoading(false);
-      }
-    };
+  //       const data = await res.json();
+  //       setUserName(data.user.name);
+  //     } catch {
+  //       router.push('/welcome');
+  //     } finally {
+  //       setLoading(false);
+  //     }
+  //   };
 
-    checkAuth();
-  }, [router]);
+  //   checkAuth();
+  // }, [router]);
 
   if (loading) return <div>Loading...</div>;
 
