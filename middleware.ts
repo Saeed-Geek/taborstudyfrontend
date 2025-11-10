@@ -30,7 +30,7 @@ console.log(accessToken,isPublicRoute)
     return NextResponse.redirect(new URL('/greet', request.url));
   }
 
-  ✅ 3. Otherwise, allow the request to go through
+  
   return NextResponse.next();
 }
 
