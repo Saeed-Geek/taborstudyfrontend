@@ -3,9 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 
 export default function WelcomePage() {
-  const router = useRouter();
-  const [userName, setUserName] = useState<string | null>(null);
-  const [loading, setLoading] = useState(true);
+  
 
   // useEffect(() => {
   //   const checkAuth = async () => {
@@ -45,7 +43,7 @@ export default function WelcomePage() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50">
       <h1 className="text-4xl font-bold text-gray-800">
-        Welcome {userName}! 🎉
+        Welcome  🎉
       </h1>
       <button
         
