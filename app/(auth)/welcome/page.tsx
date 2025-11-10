@@ -14,7 +14,7 @@ export default function WelcomePage() {
           'https://taborstudybackend-production.up.railway.app/auth/me',
           { credentials: 'include' } // ✅ send cookies
         );
-
+          console.log(res);
         if (!res.ok) {
           router.push('/login');
           return;
