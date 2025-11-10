@@ -60,7 +60,7 @@ export default function page(){
               <Big_Star />
             </div>
             <div className="w-[499px]  relative ml-[24px] mt-[60px] z-10">
-<div className="w-0 h-70 left-[21px] top-[41px] absolute outline outline-1 outline-offset-[-0.50px] outline-[var(--color-Border-border-primary)]"></div>
+<div className="w-0 h-85 left-[21px] top-[41px] absolute outline outline-1 outline-offset-[-0.50px] outline-[var(--color-Border-border-primary)]"></div>
 <div className="left-0 top-0 absolute inline-flex justify-start items-start gap-2">
 <div className="w-10 h-10 px-3.5 py-3 bg-[var(--color-Background-bg-color)] rounded-3xl outline outline-1 outline-offset-[-1px] outline-[var(--color-Border-border-primary)] inline-flex flex-col justify-center items-center gap-2.5">
 <div className="justify-start text-white text-sm font-medium font-['Host_Grotesk'] leading-4">01</div>
@@ -70,7 +70,7 @@ export default function page(){
 <div className="self-stretch justify-start text-[var(--color-Text-secondary)] text-base font-normal font-['Host_Grotesk'] leading-5">We’ll send you a 4-digit code.</div>
 </div>
 </div>
-<div className="w-96 left-0 top-[184px] absolute inline-flex justify-start items-start gap-2">
+<div className="w-96 left-0 top-[92px] absolute inline-flex justify-start items-start gap-2">
 <div className="w-10 h-10 px-3.5 py-3 bg-[var(--color-Background-bg-secondary)] rounded-3xl outline outline-1 outline-offset-[-1px] outline-[var(--color-Border-border-primary)] inline-flex flex-col justify-center items-center gap-2.5">
 <div className="justify-start text-[var(--color-Text-secondary)] text-sm font-medium font-['Host_Grotesk'] leading-4">02</div>
 </div>
@@ -79,7 +79,7 @@ export default function page(){
 <div className="w-96 justify-start text-[var(--color-Text-secondary)] text-base font-normal font-['Host_Grotesk'] leading-5">We have sent a verification code to your email.</div>
 </div>
 </div>
-<div className="left-0 top-[276px] absolute inline-flex justify-start items-start gap-2">
+<div className="left-0 top-[184px] absolute inline-flex justify-start items-start gap-2">
 <div className="w-10 h-10 px-3.5 py-3 bg-[var(--color-Background-bg-secondary)] rounded-3xl outline outline-1 outline-offset-[-1px] outline-[var(--color-Border-border-primary)] inline-flex flex-col justify-center items-center gap-2.5">
 <div className="justify-start text-[var(--color-Text-secondary)] text-sm font-medium font-['Host_Grotesk'] leading-4">03</div>
 </div>
@@ -88,7 +88,7 @@ export default function page(){
 <div className="self-stretch justify-start text-[var(--color-Text-secondary)] text-base font-normal font-['Host_Grotesk'] leading-5">Must be at least 8 characters.</div>
 </div>
 </div>
-<div className="w-[499px] left-0 top-[368px] absolute inline-flex justify-start items-start gap-2">
+<div className="w-[499px] left-0 top-[276px] absolute inline-flex justify-start items-start gap-2">
 <div className="w-10 h-10 px-3.5 py-3 bg-[var(--color-Background-bg-secondary)] rounded-3xl outline outline-1 outline-offset-[-1px] outline-[var(--color-Border-border-primary)] inline-flex flex-col justify-center items-center gap-2.5">
 <div className="justify-start text-[var(--color-Text-secondary)] text-sm font-medium font-['Host_Grotesk'] leading-4">04</div>
 </div>
