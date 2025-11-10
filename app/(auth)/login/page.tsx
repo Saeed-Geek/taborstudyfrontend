@@ -47,9 +47,12 @@ export default function Page() {
 
         if (!res.ok) return alert(data.message || 'Login failed');
 
+        // document.cookie = `accessToken=${data.accessToken}; path=/; max-age=86400; SameSite=Lax`;
+        localStorage.setItem('accessToken', data.accessToken);
+        localStorage.setItem('refreshToken', data.refreshToken);
         localStorage.setItem('userName', data.user.name);
 
-       
+        router.push('/greet');
       } catch (err) {
         console.error(err);
         alert('Network error');
