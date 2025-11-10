@@ -99,7 +99,7 @@ const handleSubmit = async (e: React.FormEvent) => {
 </div>
 </div>
 <div className="w-96 left-0 top-[92px] absolute inline-flex justify-start items-start gap-2">
-<div className="w-10 h-10 px-3.5 py-3 bg-[var(--color-Background-bg-color)]rounded-3xl outline outline-1 outline-offset-[-1px] outline-[var(--color-Border-border-primary)] inline-flex flex-col justify-center items-center gap-2.5">
+<div className="w-10 h-10 px-3.5 py-3 bg-[var(--color-Background-bg-color)] rounded-3xl outline outline-1 outline-offset-[-1px] outline-[var(--color-Border-border-primary)] inline-flex flex-col justify-center items-center gap-2.5">
 <div className="justify-start text-white text-sm font-medium font-['Host_Grotesk'] leading-4">02</div>
 </div>
 <div className="w-96 inline-flex flex-col justify-start items-start gap-2">
