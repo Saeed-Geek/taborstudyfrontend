@@ -16,14 +16,14 @@ export default function WelcomePage() {
         );
           console.log(res);
         if (!res.ok) {
-          router.push('/login');
+          router.push('/welcome');
           return;
         }
 
         const data = await res.json();
         setUserName(data.user.name);
       } catch {
-        router.push('/login');
+        router.push('/welcome');
       } finally {
         setLoading(false);
       }
