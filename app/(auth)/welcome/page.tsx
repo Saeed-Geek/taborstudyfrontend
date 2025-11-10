@@ -21,14 +21,14 @@ export default function WelcomePage() {
         </h1>
         <button
           onClick={async () => {
-            const refreshToken = localStorage.getItem("refreshToken");
-                console.log(refreshToken)
+       
             await fetch("https://taborstudybackend-production.up.railway.app/auth/logout", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ refreshToken }),
+        
             credentials: "include",
             });
+            
             localStorage.clear();
             router.push('/login');
           }}
