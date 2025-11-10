@@ -32,7 +32,7 @@ export default function WelcomePage() {
   //   checkAuth();
   // }, [router]);
 
-  if (loading) return <div>Loading...</div>;
+  
 
   // const handleLogout = async () => {
   //   await fetch('https://taborstudybackend-production.up.railway.app/auth/logout', {
