@@ -34,13 +34,13 @@ export default function WelcomePage() {
 
   if (loading) return <div>Loading...</div>;
 
-  const handleLogout = async () => {
-    await fetch('https://taborstudybackend-production.up.railway.app/auth/logout', {
-      method: 'POST',
-      credentials: 'include', // send cookies
-    });
-    router.push('/welcome');
-  };
+  // const handleLogout = async () => {
+  //   await fetch('https://taborstudybackend-production.up.railway.app/auth/logout', {
+  //     method: 'POST',
+  //     credentials: 'include', // send cookies
+  //   });
+  //   router.push('/welcome');
+  // };
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50">
@@ -48,7 +48,7 @@ export default function WelcomePage() {
         Welcome {userName}! 🎉
       </h1>
       <button
-        onClick={handleLogout}
+        
         className="mt-6 px-6 py-2 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition"
       >
         Logout
