@@ -4,7 +4,7 @@ import type { NextRequest } from 'next/server';
 const PUBLIC_PATHS = [
   '/login',
   '/register',
-  
+  '/greet',
   '/reset-password',
   '/check-email',
   '/otp-verify',
@@ -20,7 +20,7 @@ export function middleware(request: NextRequest) {
 
   // Check if the route is in the PUBLIC_PATHS list
   const isPublicRoute = PUBLIC_PATHS.some((path) => pathname.startsWith(path));
-console.log('🔒', isPublicRoute, accessToken)
+console.log(accessToken,isPublicRoute)
   // 🔒 1. If user is NOT logged in and tries to access a protected route
   if (!isPublicRoute && !accessToken) {
     return NextResponse.redirect(new URL('/login', request.url));
