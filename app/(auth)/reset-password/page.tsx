@@ -70,18 +70,9 @@ export default function page(){
 <div className="self-stretch justify-start text-[var(--color-Text-secondary)] text-base font-normal font-['Host_Grotesk'] leading-5">We’ll send you a 4-digit code.</div>
 </div>
 </div>
-<div className="left-0 top-[92px] absolute inline-flex justify-start items-start gap-2">
-<div className="w-10 h-10 px-3.5 py-3 bg-[var(--color-Background-bg-secondary)] rounded-3xl outline outline-1 outline-offset-[-1px] outline-[var(--color-Border-border-primary)] inline-flex flex-col justify-center items-center gap-2.5">
-<div className="justify-start text-[var(--color-Text-secondary)] text-sm font-medium font-['Host_Grotesk'] leading-4">02</div>
-</div>
-<div className="w-60 inline-flex flex-col justify-start items-start gap-2">
-<div className="self-stretch justify-start text-[var(--color-Text-primary)] text-lg font-medium font-['Host_Grotesk'] leading-6">Check your email</div>
-<div className="self-stretch justify-start text-[var(--color-Text-secondary)] text-base font-normal font-['Host_Grotesk'] leading-5">Please check your inbox</div>
-</div>
-</div>
 <div className="w-96 left-0 top-[184px] absolute inline-flex justify-start items-start gap-2">
 <div className="w-10 h-10 px-3.5 py-3 bg-[var(--color-Background-bg-secondary)] rounded-3xl outline outline-1 outline-offset-[-1px] outline-[var(--color-Border-border-primary)] inline-flex flex-col justify-center items-center gap-2.5">
-<div className="justify-start text-[var(--color-Text-secondary)] text-sm font-medium font-['Host_Grotesk'] leading-4">03</div>
+<div className="justify-start text-[var(--color-Text-secondary)] text-sm font-medium font-['Host_Grotesk'] leading-4">02</div>
 </div>
 <div className="w-96 inline-flex flex-col justify-start items-start gap-2">
 <div className="self-stretch justify-start text-[var(--color-Text-primary)] text-lg font-medium font-['Host_Grotesk'] leading-6">Enter your OTP Verification Code</div>
@@ -90,7 +81,7 @@ export default function page(){
 </div>
 <div className="left-0 top-[276px] absolute inline-flex justify-start items-start gap-2">
 <div className="w-10 h-10 px-3.5 py-3 bg-[var(--color-Background-bg-secondary)] rounded-3xl outline outline-1 outline-offset-[-1px] outline-[var(--color-Border-border-primary)] inline-flex flex-col justify-center items-center gap-2.5">
-<div className="justify-start text-[var(--color-Text-secondary)] text-sm font-medium font-['Host_Grotesk'] leading-4">04</div>
+<div className="justify-start text-[var(--color-Text-secondary)] text-sm font-medium font-['Host_Grotesk'] leading-4">03</div>
 </div>
 <div className="w-60 inline-flex flex-col justify-start items-start gap-2">
 <div className="self-stretch justify-start text-[var(--color-Text-primary)] text-lg font-medium font-['Host_Grotesk'] leading-6">Create a new password</div>
@@ -99,7 +90,7 @@ export default function page(){
 </div>
 <div className="w-[499px] left-0 top-[368px] absolute inline-flex justify-start items-start gap-2">
 <div className="w-10 h-10 px-3.5 py-3 bg-[var(--color-Background-bg-secondary)] rounded-3xl outline outline-1 outline-offset-[-1px] outline-[var(--color-Border-border-primary)] inline-flex flex-col justify-center items-center gap-2.5">
-<div className="justify-start text-[var(--color-Text-secondary)] text-sm font-medium font-['Host_Grotesk'] leading-4">05</div>
+<div className="justify-start text-[var(--color-Text-secondary)] text-sm font-medium font-['Host_Grotesk'] leading-4">04</div>
 </div>
 <div className="w-96 inline-flex flex-col justify-start items-start gap-2">
 <div className="w-72 justify-start text-[var(--color-Text-primary)] text-lg font-medium font-['Host_Grotesk'] leading-6">Password Change Successfully</div>
