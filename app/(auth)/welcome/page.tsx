@@ -39,7 +39,7 @@ export default function WelcomePage() {
       method: 'POST',
       credentials: 'include', // send cookies
     });
-    router.push('/login');
+    router.push('/welcome');
   };
 
   return (
